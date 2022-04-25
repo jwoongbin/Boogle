@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <title>Boogle - All the books in the world</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo_image">
+                <img src="boogle_logo.png" alt="boogle logo" width="55" height="55">
+            </div>
+            <div class="logo_text">
+                <h1>Boogle</h1>
+            </div>
+            <hr align="left" style="border: solid 3px black; width: 1080px;">
+        </header>
+        <section class="menu">
+            <div class="book_search">
+                <div class="bs_text">
+                    <h3>Search for a book</h3>
+                </div>
+                <div class="categorybox">
+                    <select name="search">
+                        <option value="">Categories</option>
+                        <option value="Author">Author</option>
+                        <option value="Title">Title</option>
+                        <option value="Genre">Genre</option>
+                    </select>
+                </div>
+                <div class="text_input">
+                    <input type="text" searchword="searchtext">
+                </div>
+                <div class="submit_button">
+                    <input type="submit" value="Search!">
+                </div>
+            </div>
+            <div class="book_recommand">
+                <div class="br_text">
+                    <h3>Book Recommendation</h3>
+                </div>
+                <div class="st_list">
+                    <select name="sorting_list">
+                        <option value="">Sorting</option>
+                        <option value="Phrase">Phrase</option>
+                        <option value="Keywords">Keywords</option>
+                        <option value="Field">Field</option>
+                    </select>
+                </div>
+                <div class="tt_list">
+                    <select name="taste_list">
+                        <option value="">Your Taste</option>
+                        <option value="Taste1">Taste1</option>
+                        <option value="Taste2">Taste2</option>
+                        <option value="Taste3">Taste3</option>
+                    </select>
+                </div>
+                <div class="dc_list">
+                    <select name="Difficulty_list">
+                        <option value="">Difficulty</option>
+                        <option value="Easy">Easy</option>
+                        <option value="Normal">Normal</option>
+                        <option value="Hard">Hard</option>
+                    </select>
+                </div>
+                <br>
+                <input type="submit" value="View the List">
+            </div>
+            <div class="bestseller">
+                <div class="bsr_text">
+                    <h3>What are people reading right now</h3>
+                </div>
+                <div class="daily_button">
+                    <button onclick="location.href='bestseller.html'">Daily&#62;</button>
+                </div>
+                <div class="weekly_button">
+                    <button onclick="location.href='bestseller.html'">Weekly&#62;</button>
+                </div>
+                <div class="monthly_button">
+                    <button onclick="location.href='bestseller.html'">Monthly&#62;</button>
+                </div>
+            </div>
+            <div class="phrase">
+                <div class="ph_text">
+                    <h3>Today's Phrase for You</h3>
+                </div>
+                <button onclick="location.href='Morephrase.html'">More&#62;</button>
+                <br>
+                <pre>&#34;It is impossible to manufacture or imitate love.&#34; 
+    &#60;Harry Potter and the Half&#45;Blood Prince&#62;</pre>
+            </div>
+            <div class="review">
+                <div class="rv_text">
+                    <h3>Reader's Review</h3>
+                </div>
+                <button onclick="location.href='Morereview.html'">More&#62;</button>
+                <br>
+                <img src="reviewbook.png" alt="bookcover" width="150" height="150">
+                <div class="star-rating space-x-4 mx-auto">
+                    <input type="radio" id="5-stars" name="rating" value="5" v-model="ratings" />
+                    <label for="5-stars" class="star pr-4">★</label>
+                    <input type="radio" id="4-stars" name="rating" value="4" v-model="ratings" />
+                    <label for="4-stars" class="star">★</label>
+                    <input type="radio" id="3-stars" name="rating" value="3" v-model="ratings" />
+                    <label for="3-stars" class="star">★</label>
+                    <input type="radio" id="2-stars" name="rating" value="2" v-model="ratings" />
+                    <label for="2-stars" class="star">★</label>
+                    <input type="radio" id="1-stars" name="rating" value="1" v-model="ratings" />
+                    <label for="1-stars" class="star">★</label>
+                </div>
+            </div>
+            <div class="copyright">
+                Project Boogle - All the books in the world
+            </div>
+        </section>
+
+    </body>
+
+</html>
