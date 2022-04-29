@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Boogle - All the books in the world</title>
-        <link rel="stylesheet" href="main.css">
+        <!-- 동적 리소스 파일 로드 -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
     </head>
     <body>
         <header>
