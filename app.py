@@ -1,6 +1,12 @@
 from flask import *
 import requests
+from flask_assets import Environment, Bundle
 app = Flask('mars_discovery')
+# SCSS
+assets = Environment(app)
+assets.url = app.static_url_path
+scss = Bundle('sb-admin-2.css',filters='pyscss', output='all.css')
+assets.register('scss_all',scss)
 
 @app.route('/')
 @app.route('/home')

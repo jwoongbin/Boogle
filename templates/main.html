@@ -9,7 +9,7 @@
     <body>
         <header>
             <div class="logo_image">
-                <img src="boogle_logo.png" alt="boogle logo" width="55" height="55">
+                <img src="static/images/boogle_logo.png" alt="boogle logo" width="55" height="55">
             </div>
             <div class="logo_text">
                 <h1>Boogle</h1>
@@ -29,7 +29,7 @@
                         <option value="Genre">Genre</option>
                     </select>
                 </div>
-                <div>
+                <div class="search_box">
                     <form>
                         <div>
                             <label for = "book" class = "form-label"><strong> BOOK SEARCH : </strong></label>
@@ -38,7 +38,6 @@
                         <button type = "submit" class = "btn btn-sm btn-primary"> <strong>SUBMIT</strong></button>
                     </form>
                 </div>
-
             </div>
             <div class="book_recommand">
                 <div class="br_text">
@@ -100,7 +99,7 @@
                 </div>
                 <button onclick="location.href='Morereview.html'">More&#62;</button>
                 <br>
-                <img src="reviewbook.png" alt="bookcover" width="150" height="150">
+                <img src="static/images/reviewbook.png" alt="bookcover" width="150" height="150">
                 <div class="star-rating space-x-4 mx-auto">
                     <input type="radio" id="5-stars" name="rating" value="5" v-model="ratings" />
                     <label for="5-stars" class="star pr-4">★</label>
