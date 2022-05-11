@@ -1,31 +1,10 @@
 @charset "utf-8";
 
-.logo_image {
-    float: left;
-    margin-top: 0px;
-    margin-left: 14px;
-}
-
-.logo_text {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    font-weight: bold;
-    margin-left: 30px;
-}
-
 .menu {
     margin-top: 30px;
     width: 1000px;
     height: 500px;
     position: relative;
-}
-
-.book_search {
-    border: 1px solid black;
-    position: relative;
-    top: 0px;
-    width: 1080px;
-    height: 450px;
 }
 
 .categorybox select {
@@ -183,14 +162,6 @@
     cursor: pointer;
   }
 
-.copyright {
-    border: 1px solid black;
-    position:absolute;
-    top: 1640px;
-    width: 1080px;
-    text-align: center;
-    margin-bottom: 10px;
-}
 .bs_text {
     position: relative;
     top: 200px;

@@ -1,3 +1,10 @@
+{% extends 'common.html' %}
+
+{% block content %}
+
+{% endblock %}
+
+
 <!DOCTYPE html>
 <html lang="eng">
     <head>
@@ -7,15 +14,6 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
     </head>
     <body>
-        <header>
-            <div class="logo_image">
-                <img src="static/images/boogle_logo.png" alt="boogle logo" width="55" height="55">
-            </div>
-            <div class="logo_text">
-                <h1>Boogle</h1>
-            </div>
-            <hr align="left" style="border: solid 3px black; width: 1080px;">
-        </header>
         <section class="menu">
             <div class="book_search">
                 <div class="bs_text">
@@ -29,15 +27,7 @@
                         <option value="Genre">Genre</option>
                     </select>
                 </div>
-                <div class="search_box">
-                    <form>
-                        <div>
-                            <label for = "book" class = "form-label"><strong> BOOK SEARCH : </strong></label>
-                            <input type="text" name = 'book' class = "form-control" id="book" rows="3" />
-                        </div>
-                        <button type = "submit" class = "btn btn-sm btn-primary"> <strong>SUBMIT</strong></button>
-                    </form>
-                </div>
+
             </div>
             <div class="book_recommand">
                 <div class="br_text">
@@ -113,11 +103,7 @@
                     <label for="1-stars" class="star">★</label>
                 </div>
             </div>
-            <div class="copyright">
-                Project Boogle - All the books in the world
-            </div>
-        </section>
-
+        </section> -->
     </body>
 
 </html>

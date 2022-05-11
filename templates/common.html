@@ -1,1 +1,55 @@
 <!-- 공통 템플릿. 모든 템플릿에서 상속받아 사용 -->
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <title>Boogle - All the books in the world</title>
+        <!-- 동적 리소스 파일 로드 -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css')}}">
+    </head>
+    <body>
+        <div class="page-header">
+
+            <div class="logo-container">
+              <div class="logo_image">
+                  <img src="static/images/boogle_logo.png" alt="boogle logo" width="55" height="55">
+              </div>
+              <div class="logo_text">
+                  <h1>Boogle</h1>
+              </div>
+            </div>
+            <div class="Nav-bar">
+              <nav class="nav">
+                <a href ="{{ url_for('about')}}">About</a>
+                <a href ="{{ url_for('home')}}">Home</a>
+                <a href ="{{ url_for('bookshelves')}}">bookshelves</a>
+              <nav>
+            </div>
+            <div class="search_box">
+              <form>
+                  <div>
+                      <label for = "book" class = "form-label"><strong> BOOK SEARCH : </strong></label>
+                      <input type="text" name = 'book' class = "form-control" id="book" rows="3" />
+                  </div>
+                  <button type = "submit" class = "btn btn-sm btn-primary"> <strong>SUBMIT</strong></button>
+              </form>
+            </div>
+            <!-- <hr align="left" style="border: solid 3px black; width: 1080px;"> -->
+        </div>
+        <div class="content-container">
+          <div class="row">
+            <div class="col-md-8">
+              {% block content %}
+              <!--자식 템플릿 코드가 들어갈 자리-->
+              {% endblock %}
+            </div>
+          </div>
+        </div>
+        <div class="page-bottom">
+          <div class="copyright">
+            Project Boogle - All the books in the world
+          </div>
+        </div>
+    </body>
+
+</html>

@@ -1,56 +1,6 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name = "viewport" content = "width=device-width, initial-scale = 1">  
-    <title>home</title>
-</head>
-<body>
-    <div>
-        <h1> Book Split! </h1>
-    </div>
-    <br>
-    <div>
-        <form>
-            <div>
-                <label for = "book" class = "form-label"><strong> BOOK SEARCH : </strong></label>
-                <input type="text" name = 'book' class = "form-control" id="book" rows="3" />
-            </div>
-            <button type = "submit" class = "btn btn-sm btn-primary"> <strong>SUBMIT</strong></button>
-        </form>
-    </div>
-    <br>
-    <div>
-        <h5>RESULTS: </h5>
+{% extends 'common.html' %}
 
-        <div>
-            <div class="card-header  text-start">TITLE</div>
-            <div class-="card-body text-center">
-                <img src="" />IMAGE
-                <br>
-                <a href="">GET Text</a>
-            </div>
-            <div class="card-footer bg-transparent">Authors</div>
-        </div>
-    </div>
-
-    <div>
-        <h5>RESULTS: </h5>
-        {%for book in books%}
-        <div>
-            <div>{{book['title']}}</div>
-            <div>
-                <img src="{{book[  'formats'][  'image/jpeg']}}" />
-                <br>
-                <a href="{{book[  'formats'][  'text/plain; charset=utf-8']}}"> GET Text</a>
-            </div>
-            <div>Authors : {{book['authors']}}</div>
-            <hr>
-        </div>
-        {%endfor%}
-    </div>
-    
-
-</body>
-</html>
+{% block content %}
+  <h1>Home</h1>
+  <h2>This is the home.</h2>
+{% endblock %}

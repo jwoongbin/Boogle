@@ -1,16 +1,10 @@
 from flask import *
 import requests
-from flask_assets import Environment, Bundle
 app = Flask('mars_discovery')
-# SCSS
-assets = Environment(app)
-assets.url = app.static_url_path
-scss = Bundle('sb-admin-2.css',filters='pyscss', output='all.css')
-assets.register('scss_all',scss)
 
 @app.route('/')
-@app.route('/home')
-def home():
+@app.route('/main')
+def main():
     books = []
     if 'book' in request.args:
         search_word = request.args.get('book')
@@ -19,7 +13,20 @@ def home():
         books = data['results']
         return render_template('results.html', books=books)
     else:
-        return render_template('main.html', books=books)
+        return render_template('common.html', books=books)
+
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
+    
+@app.route('/home')
+def home():
+    return render_template('home.html')
+
+@app.route('/bookshelves')
+def bookshelves():
+    return render_template('bookshelves.html')
 
 app.run(debug= True)
 

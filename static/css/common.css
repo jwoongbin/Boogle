@@ -1,0 +1,60 @@
+html{
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+}
+body{
+  min-height: 100%;
+  padding-bottom: 120px;
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 14px;
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+}
+.logo_image {
+    float: left;
+    margin-top: 0px;
+}
+.logo_text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Nav-bar{
+  position: absolute;
+  left: 257px;
+}
+.book_search {
+  border: 1px solid black;
+  position: relative;
+  top: 0px;
+  width: 1080px;
+  height: 450px;
+}
+.page-bottom{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 15px 0;
+  }
+.copyright {
+  border: 1px solid black;
+  text-align: center;
+}
+.nav a{
+  margin: 0 10px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  }
+.search_box form{
+  display: flex;
+
+}

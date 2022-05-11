@@ -1,26 +1,19 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8">
-    <meta name = "viewport" content = "width=device-width, initial-scale = 1">  
-    <title>home</title>
-</head>
-<body>
+{% extends 'common.html' %}
+
+{% block content %}
+  <div>
+    <h5>RESULTS: </h5>
+    {%for book in books%}
     <div>
-        <h5>RESULTS: </h5>
-        {%for book in books%}
+        <div>{{book['title']}}</div>
         <div>
-            <div>{{book['title']}}</div>
-            <div>
-                <img src="{{book[  'formats'][  'image/jpeg']}}" />
-                <br>
-                <a href="{{book[  'formats'][  'text/plain; charset=utf-8']}}"> GET Text</a>
-            </div>
-            <div>Authors : {{book['authors']}}</div>
-            <hr>
+            <img src="{{book[  'formats'][  'image/jpeg']}}" />
+            <br>
+            <a href="{{book[  'formats'][  'text/plain; charset=utf-8']}}"> GET Text</a>
         </div>
-        {%endfor%}
+        <div>Authors : {{book['authors']}}</div>
+        <hr>
     </div>
-</body>
-</html>
+    {%endfor%}
+  </div>
+{% endblock %}
