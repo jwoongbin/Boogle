@@ -16,6 +16,16 @@ body{
 .logo-container{
   display: flex;
   align-items: center;
+  text-decoration: unset;
+}
+.logo-container:visited{
+  color: black;
+}
+.logo-container:hover{
+  color: red;
+}
+.logo-container:active{
+  color: red;
 }
 .logo_image {
     float: left;
@@ -54,6 +64,15 @@ body{
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
   }
+  .nav a:visited{
+    color: black;
+  }
+  .nav a:hover{
+    color: red;
+  }
+  .nav a:active{
+    color: red;
+  }  
 .search_box form{
   display: flex;
 

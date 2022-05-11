@@ -10,14 +10,22 @@
     <body>
         <div class="page-header">
 
-            <div class="logo-container">
+            <!-- <div class="logo-container">
               <div class="logo_image">
                   <img src="static/images/boogle_logo.png" alt="boogle logo" width="55" height="55">
               </div>
               <div class="logo_text">
                   <h1>Boogle</h1>
               </div>
-            </div>
+            </div> -->
+            <a href ="{{ url_for('main')}}" class="logo-container">
+              <div class="logo_image">
+                  <img src="static/images/boogle_logo.png" alt="boogle logo" width="55" height="55">
+              </div>
+              <div class="logo_text">
+                  <h1>Boogle</h1>
+              </div>
+            </a>
             <div class="Nav-bar">
               <nav class="nav">
                 <a href ="{{ url_for('about')}}">About</a>
