@@ -13,13 +13,13 @@ def main():
         books = data['results']
         return render_template('results.html', books=books)
     else:
-        return render_template('common.html', books=books)
+        return render_template('main.html', books=books)
 
 
 @app.route('/about')
 def about():
     return render_template('about.html')
-    
+
 @app.route('/home')
 def home():
     return render_template('home.html')
