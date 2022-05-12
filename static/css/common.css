@@ -8,6 +8,9 @@ body{
   padding-bottom: 120px;
 }
 .page-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,6 +38,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     font-weight: bold;
+    color:#fff;
 }
 .Nav-bar{
   position: absolute;
@@ -63,9 +67,10 @@ body{
   text-decoration: none;
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
+  color: #fff;
   }
   .nav a:visited{
-    color: black;
+    color: #fff;
   }
   .nav a:hover{
     color: red;

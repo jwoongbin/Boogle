@@ -2,10 +2,12 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
+        {% block head %}
         <meta charset="utf-8">
         <title>Boogle - All the books in the world</title>
         <!-- 동적 리소스 파일 로드 -->
         <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css')}}">
+        {% endblock %}
     </head>
     <body>
         <div class="page-header">
