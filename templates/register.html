@@ -1,7 +1,6 @@
 {% extends 'common.html' %}
 {% block head %}
 {{ super() }}
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Document</title>
@@ -47,9 +46,9 @@
             <div class="form-group">
                 <select class="form-select" id="user_genre" name="user_genre">
                     <option selected>Select Genre</option>
-                    <option value="1">Literature</option>
-                    <option value="2">History</option>
-                    <option value="3">Philosophy</option>
+                    {% for o in genre_data %}
+                    <option value="{{ o.genre }}">{{ o.genre }}</option>
+                    {% endfor %}
                 </select>
             </div>
             <button type="submit" class="btn btn-primary">등록</button>

@@ -41,12 +41,16 @@ def main():
     books3 = []
     books3 = data['results']    
     
+    
     return render_template('main.html', books=books, books2=books2, books3=books3)
     
 @app.route('/register', methods=['GET','POST'])
 def register():
     if request.method == 'GET':
-        return render_template("register.html")
+        
+        genre_data=[{'genre': 'Literature'}, {'genre': 'History'}, {'genre': 'Philosophy'}],
+
+        return render_template("register.html", genre_data=genre_data)
     else:
         #회원정보 생성
         userid = request.form.get('userid') 
@@ -57,7 +61,7 @@ def register():
         user_genre = request.form.get('user_genre')
         print(user_genre)
         
-        if not (userid and username and password and re_password  and user_genre) :
+        if not (userid and username and password and re_password and user_genre) :
             return "모두 입력해주세요"
         elif password != re_password:
             return "비밀번호를 확인해주세요"
