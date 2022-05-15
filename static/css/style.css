@@ -1,32 +1,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 
-body,
-html {
-  padding: 0 10px;
-  margin: 0;
-  background: #0e0f11;
-  color: #ecf0f1;
-  font-family: 'Open Sans', sans-serif;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-}
-* {
-  box-sizing: border-box;
-}
-
 h1,
 p {
-  text-align: center;
+  /* text-align: center; */
 }
 p {
   width: 100%;
@@ -46,13 +22,12 @@ a:hover {
   color: #7f8c8d;
   text-decoration: underline;
 }
-.contain {
-  position: absolute;
-  width: 100%;
+.contain.num1 {
+}
+.contain.num2 {
 }
 
 .slider {
-    height: 214px;
     position: relative;
     margin: 0;
     padding: 0 4%;
@@ -68,12 +43,12 @@ a:hover {
 
 .slider .handle.handlePrev {
     left: 11px;
-
+  height: 324px;
 }
 
 .slider .handle.handleNext {
     right: 11px;
-
+    height: 324px;
 }
 
 .slider .handle.active {
@@ -103,8 +78,10 @@ a:hover {
 }
 
 .fa{
-  font-size: 46px;
-  margin-top: 120px;
+  font-size: 70px;
+  top: 50%;
+  position: absolute;
+  transform: translate(0, -50%);
 }
 
 .row {
@@ -136,10 +113,8 @@ a:hover {
           transform-origin: center left;
 }
 .gui-card__img {
-  width: 250px;
-  height: 140.625px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 200px;
+  height: 250px;
 }
 .gui-card__details {
   position: absolute;

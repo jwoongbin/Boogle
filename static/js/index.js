@@ -1,10 +1,11 @@
 var intervalo;
 
-function scrollDireita(){
-  intervalo = setInterval(function(){ document.getElementById('scroller').scrollLeft += 1 }  , 5);
+function scrollDireita(idx){
+  console.log(idx)
+  intervalo = setInterval(function(){ document.getElementById('scroller'+idx).scrollLeft += 1 }  , 5);
 };
-function scrollEsquerda(){
-  intervalo = setInterval(function(){ document.getElementById('scroller').scrollLeft -= 1 }  , 5);
+function scrollEsquerda(idx){
+  intervalo = setInterval(function(){ document.getElementById('scroller'+idx).scrollLeft -= 1 }  , 5);
 };
 function clearScroll(){
   clearInterval(intervalo);
