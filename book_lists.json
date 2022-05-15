@@ -1,0 +1,650 @@
+{
+	"Five Lectures on Reincarnation": {
+		"id": 7377,
+		"title": "Five Lectures on Reincarnation",
+		"authors": "Abhedananda, Swami",
+		"image": "https://www.gutenberg.org/cache/epub/7377/pg7377.cover.medium.jpg",
+		"download_count": 62,
+		"grade": "4.3"
+	},
+	"The Law of Civilization and Decay: An Essay on History": {
+		"id": 44908,
+		"title": "The Law of Civilization and Decay: An Essay on History",
+		"authors": "Adams, Brooks",
+		"image": "https://www.gutenberg.org/cache/epub/44908/pg44908.cover.small.jpg",
+		"download_count": 128,
+		"grade": "4.1"
+	},
+	"An ethical philosophy of life presented in its main outlines": {
+		"id": 60068,
+		"title": "An ethical philosophy of life presented in its main outlines",
+		"authors": "Adler, Felix",
+		"image": "https://www.gutenberg.org/cache/epub/60068/pg60068.cover.medium.jpg",
+		"download_count": 52,
+		"grade": null
+	},
+	"Cobwebs of Thought": {
+		"id": 13766,
+		"title": "Cobwebs of Thought",
+		"authors": "Arachne",
+		"image": "https://www.gutenberg.org/cache/epub/13766/pg13766.cover.small.jpg",
+		"download_count": 11,
+		"grade": null
+	},
+	"Aristotle on the art of poetry": {
+		"id": 6763,
+		"title": "Aristotle on the art of poetry",
+		"authors": "Aristotle",
+		"image": "https://www.gutenberg.org/cache/epub/6763/pg6763.cover.medium.jpg",
+		"download_count": 252,
+		"grade": "4.4"
+	},
+	"The Philosophy of the Plays of Shakspere Unfolded": {
+		"id": 8207,
+		"title": "The Philosophy of the Plays of Shakspere Unfolded",
+		"authors": "Bacon, Delia Salter",
+		"image": "https://www.gutenberg.org/cache/epub/8207/pg8207.cover.small.jpg",
+		"download_count": 30,
+		"grade": null
+	},
+	"Fundamental Philosophy, Vol. 2 (of 2)": {
+		"id": 48149,
+		"title": "Fundamental Philosophy, Vol. 2 (of 2)",
+		"authors": "Balmes, Jaime Luciano",
+		"image": "https://www.gutenberg.org/cache/epub/48149/pg48149.cover.medium.jpg",
+		"download_count": 32,
+		"grade": null
+	},
+	"The Law": {
+		"id": 1397,
+		"title": "The Law",
+		"authors": "Volney, C.-F. (Constantin-François)",
+		"image": "https://www.gutenberg.org/cache/epub/1397/pg1397.cover.medium.jpg",
+		"download_count": 2566,
+		"grade": "4.8"
+	},
+	"An Appeal to the People in Behalf of Their Rights as Authorized Interpreters of the Bible": {
+		"id": 56354,
+		"title": "An Appeal to the People in Behalf of Their Rights as Authorized Interpreters of the Bible",
+		"authors": "Beecher, Catharine Esther",
+		"image": "https://www.gutenberg.org/cache/epub/56354/pg56354.cover.medium.jpg",
+		"download_count": 7,
+		"grade": null
+	},
+	"The Greek Philosophers, Vol. 2 (of 2)": {
+		"id": 57126,
+		"title": "The Greek Philosophers, Vol. 2 (of 2)",
+		"authors": "Benn, Alfred William",
+		"image": "https://www.gutenberg.org/cache/epub/57126/pg57126.cover.medium.jpg",
+		"download_count": 43,
+		"grade": "4.0"
+	},
+	"History of Modern Philosophy": {
+		"id": 34283,
+		"title": "History of Modern Philosophy",
+		"authors": "Benn, Alfred William",
+		"image": "https://www.gutenberg.org/cache/epub/34283/pg34283.cover.medium.jpg",
+		"download_count": 59,
+		"grade": "4.5"
+	},
+	"Laughter: An Essay on the Meaning of the Comic": {
+		"id": 4352,
+		"title": "Laughter: An Essay on the Meaning of the Comic",
+		"authors": "Bergson, Henri",
+		"image": "https://www.gutenberg.org/cache/epub/4352/pg4352.cover.small.jpg",
+		"download_count": 697,
+		"grade": "4.1"
+	},
+	"Chaucer's Translation of Boethius's \"De Consolatione Philosophiae\"": {
+		"id": 42083,
+		"title": "Chaucer's Translation of Boethius's \"De Consolatione Philosophiae\"",
+		"authors": "Boethius",
+		"image": "https://www.gutenberg.org/cache/epub/42083/pg42083.cover.small.jpg",
+		"download_count": 155,
+		"grade": null
+	},
+	"The Theological Tractates and The Consolation of Philosophy": {
+		"id": 13316,
+		"title": "The Theological Tractates and The Consolation of Philosophy",
+		"authors": "Boethius",
+		"image": "https://www.gutenberg.org/cache/epub/13316/pg13316.cover.medium.jpg",
+		"download_count": 99,
+		"grade": "4.7"
+	},
+	"The Philosophical Theory of the State": {
+		"id": 63249,
+		"title": "The Philosophical Theory of the State",
+		"authors": "Bosanquet, Bernard",
+		"image": "https://www.gutenberg.org/cache/epub/63249/pg63249.cover.small.jpg",
+		"download_count": 9,
+		"grade": null
+	},
+	"Friedrich Nietzsche": {
+		"id": 4363,
+		"title": "Friedrich Nietzsche",
+		"authors": "Nietzsche, Friedrich Wilhelm",
+		"image": "https://www.gutenberg.org/cache/epub/4363/pg4363.cover.medium.jpg",
+		"download_count": 6890,
+		"grade": "4.7"
+	},
+	"The American Republic: Its Constitution, Tendencies, and Destiny": {
+		"id": 2053,
+		"title": "The American Republic: Its Constitution, Tendencies, and Destiny",
+		"authors": "Brownson, Orestes Augustus",
+		"image": "https://www.gutenberg.org/cache/epub/2053/pg2053.cover.small.jpg",
+		"download_count": 46,
+		"grade": "4.1"
+	},
+	"Early Greek philosophy": {
+		"id": 51548,
+		"title": "Early Greek philosophy",
+		"authors": "Nietzsche, Friedrich Wilhelm",
+		"image": "https://www.gutenberg.org/cache/epub/51548/pg51548.cover.medium.jpg",
+		"download_count": 251,
+		"grade": "4.7"
+	},
+	"The Idea of Progress: An Inquiry into Its Origin and Growth": {
+		"id": 4557,
+		"title": "The Idea of Progress: An Inquiry into Its Origin and Growth",
+		"authors": "Bury, J. B. (John Bagnell)",
+		"image": "https://www.gutenberg.org/cache/epub/4557/pg4557.cover.small.jpg",
+		"download_count": 251,
+		"grade": "3.0"
+	},
+	"Tennyson": {
+		"id": 610,
+		"title": "Tennyson",
+		"authors": "Tennyson, Alfred Tennyson, Baron",
+		"image": "https://www.gutenberg.org/cache/epub/610/pg610.cover.medium.jpg",
+		"download_count": 642,
+		"grade": "4.7"
+	},
+	"The Sayings of Confucius": {
+		"id": 24055,
+		"title": "The Sayings of Confucius",
+		"authors": "Confucius",
+		"image": "https://www.gutenberg.org/cache/epub/24055/pg24055.cover.medium.jpg",
+		"download_count": 190,
+		"grade": "4.1"
+	},
+	"Cowley's Essays": {
+		"id": 3549,
+		"title": "Cowley's Essays",
+		"authors": "Cowley, Abraham",
+		"image": "https://www.gutenberg.org/cache/epub/3549/pg3549.cover.medium.jpg",
+		"download_count": 141,
+		"grade": "2.0"
+	},
+	"Aesthetic as Science of Expression and General Linguistic": {
+		"id": 9306,
+		"title": "Aesthetic as Science of Expression and General Linguistic",
+		"authors": "Croce, Benedetto",
+		"image": "https://www.gutenberg.org/cache/epub/9306/pg9306.cover.small.jpg",
+		"download_count": 30,
+		"grade": "4.5"
+	},
+	"A Beginner's History of Philosophy, Vol. 2: Modern Philosophy": {
+		"id": 62663,
+		"title": "A Beginner's History of Philosophy, Vol. 2: Modern Philosophy",
+		"authors": "Cushman, Herbert Ernest",
+		"image": "https://www.gutenberg.org/cache/epub/62663/pg62663.cover.small.jpg",
+		"download_count": 27,
+		"grade": null
+	},
+	"The Banquet (Il Convito)": {
+		"id": 12867,
+		"title": "The Banquet (Il Convito)",
+		"authors": "Dante Alighieri",
+		"image": "https://www.gutenberg.org/cache/epub/12867/pg12867.cover.medium.jpg",
+		"download_count": 38,
+		"grade": "3.2"
+	},
+	"The Mathematicall Praeface to Elements of Geometrie of Euclid of Megara": {
+		"id": 22062,
+		"title": "The Mathematicall Praeface to Elements of Geometrie of Euclid of Megara",
+		"authors": "Dee, John",
+		"image": "https://www.gutenberg.org/cache/epub/22062/pg22062.cover.medium.jpg",
+		"download_count": 178,
+		"grade": "5.0"
+	},
+	"Infinity's Child": {
+		"id": 58682,
+		"title": "Infinity's Child",
+		"authors": "De Vet, Charles V.",
+		"image": "https://www.gutenberg.org/cache/epub/58682/pg58682.cover.medium.jpg",
+		"download_count": 19,
+		"grade": "5.0"
+	},
+	"Democracy and Education: An Introduction to the Philosophy of Education": {
+		"id": 852,
+		"title": "Democracy and Education: An Introduction to the Philosophy of Education",
+		"authors": "Dewey, John",
+		"image": "https://www.gutenberg.org/cache/epub/852/pg852.cover.medium.jpg",
+		"download_count": 2706,
+		"grade": "4.4"
+	},
+	"Reconstruction in Philosophy": {
+		"id": 40089,
+		"title": "Reconstruction in Philosophy",
+		"authors": "Dewey, John",
+		"image": "https://www.gutenberg.org/cache/epub/40089/pg40089.cover.small.jpg",
+		"download_count": 132,
+		"grade": "4.5"
+	},
+	"The Lives and Opinions of Eminent Philosophers": {
+		"id": 57342,
+		"title": "The Lives and Opinions of Eminent Philosophers",
+		"authors": "Diogenes Laertius",
+		"image": "https://www.gutenberg.org/cache/epub/57342/pg57342.cover.small.jpg",
+		"download_count": 666,
+		"grade": "4.0"
+	},
+	"John Brown": {
+		"id": 67758,
+		"title": "John Brown",
+		"authors": "Anderson, John",
+		"image": "https://www.gutenberg.org/cache/epub/67758/pg67758.cover.small.jpg",
+		"download_count": 799,
+		"grade": "4.6"
+	},
+	"The Elementary Forms of the Religious Life": {
+		"id": 41360,
+		"title": "The Elementary Forms of the Religious Life",
+		"authors": "Durkheim, Émile",
+		"image": "https://www.gutenberg.org/cache/epub/41360/pg41360.cover.medium.jpg",
+		"download_count": 1033,
+		"grade": "4.6"
+	},
+	"The Dance of Life": {
+		"id": 65714,
+		"title": "The Dance of Life",
+		"authors": "Ellis, Havelock",
+		"image": "https://www.gutenberg.org/cache/epub/65714/pg65714.cover.small.jpg",
+		"download_count": 70,
+		"grade": "4.5"
+	},
+	"Nature": {
+		"id": 3300,
+		"title": "Nature",
+		"authors": "Smith, Adam",
+		"image": "https://www.gutenberg.org/cache/epub/3300/pg3300.cover.medium.jpg",
+		"download_count": 2600,
+		"grade": "4.6"
+	},
+	"A Selection from the Discourses of Epictetus with the Encheiridion": {
+		"id": 10661,
+		"title": "A Selection from the Discourses of Epictetus with the Encheiridion",
+		"authors": "Epictetus",
+		"image": "https://www.gutenberg.org/cache/epub/10661/pg10661.cover.medium.jpg",
+		"download_count": 182,
+		"grade": "4.7"
+	},
+	"The Golden Sayings of Epictetus, with the Hymn of Cleanthes": {
+		"id": 871,
+		"title": "The Golden Sayings of Epictetus, with the Hymn of Cleanthes",
+		"authors": "Epictetus",
+		"image": "https://www.gutenberg.org/cache/epub/871/pg871.cover.medium.jpg",
+		"download_count": 241,
+		"grade": "4.5"
+	},
+	"The Mathematical-Historical Principles and the Evolution of Liberty": {
+		"id": 30174,
+		"title": "The Mathematical-Historical Principles and the Evolution of Liberty",
+		"authors": "Fernández Bolívar, Víctor José",
+		"image": "https://www.gutenberg.org/cache/epub/30174/pg30174.cover.medium.jpg",
+		"download_count": 15,
+		"grade": null
+	},
+	"American Political Ideas Viewed from the Standpoint of Universal History": {
+		"id": 10112,
+		"title": "American Political Ideas Viewed from the Standpoint of Universal History",
+		"authors": "Fiske, John",
+		"image": "https://www.gutenberg.org/cache/epub/10112/pg10112.cover.small.jpg",
+		"download_count": 33,
+		"grade": "4.1"
+	},
+	"An Introduction to Philosophy": {
+		"id": 852,
+		"title": "An Introduction to Philosophy",
+		"authors": "Dewey, John",
+		"image": "https://www.gutenberg.org/cache/epub/852/pg852.cover.medium.jpg",
+		"download_count": 2706,
+		"grade": "4.6"
+	},
+	"The Tattva-Muktavali": {
+		"id": 7175,
+		"title": "The Tattva-Muktavali",
+		"authors": "Gaudapurnanandacakravarti, active 17th century",
+		"image": "https://www.gutenberg.org/cache/epub/7175/pg7175.cover.medium.jpg",
+		"download_count": 38,
+		"grade": null
+	},
+	"The Confessions of Al Ghazzali": {
+		"id": 58977,
+		"title": "The Confessions of Al Ghazzali",
+		"authors": "Ghazzali",
+		"image": "https://www.gutenberg.org/cache/epub/58977/pg58977.cover.small.jpg",
+		"download_count": 89,
+		"grade": "4.0"
+	},
+	"Plato and the Other Companions of Sokrates, 3rd ed. Volume 4": {
+		"id": 40438,
+		"title": "Plato and the Other Companions of Sokrates, 3rd ed. Volume 4",
+		"authors": "Grote, George",
+		"image": "https://www.gutenberg.org/cache/epub/40438/pg40438.cover.medium.jpg",
+		"download_count": 50,
+		"grade": "5.0"
+	},
+	"The History of Freedom, and Other Essays": {
+		"id": 31278,
+		"title": "The History of Freedom, and Other Essays",
+		"authors": "Acton, John Emerich Edward Dalberg Acton, Baron",
+		"image": "https://www.gutenberg.org/cache/epub/31278/pg31278.cover.small.jpg",
+		"download_count": 142,
+		"grade": "3.9"
+	},
+	"The Categories": {
+		"id": 2412,
+		"title": "The Categories",
+		"authors": "Aristotle",
+		"image": "https://www.gutenberg.org/cache/epub/2412/pg2412.cover.small.jpg",
+		"download_count": 337,
+		"grade": "4.7"
+	},
+	"The Philosophy and Theology of Averroes": {
+		"id": 65708,
+		"title": "The Philosophy and Theology of Averroes",
+		"authors": "Averroës",
+		"image": "https://www.gutenberg.org/cache/epub/65708/pg65708.cover.small.jpg",
+		"download_count": 57,
+		"grade": "4.0"
+	},
+	"The Advancement of Learning": {
+		"id": 5500,
+		"title": "The Advancement of Learning",
+		"authors": "Bacon, Francis",
+		"image": "https://www.gutenberg.org/cache/epub/5500/pg5500.cover.medium.jpg",
+		"download_count": 465,
+		"grade": "3.6"
+	},
+	"Fundamental Philosophy, Vol. 1 (of 2)": {
+		"id": 48149,
+		"title": "Fundamental Philosophy, Vol. 1 (of 2)",
+		"authors": "Balmes, Jaime Luciano",
+		"image": "https://www.gutenberg.org/cache/epub/48149/pg48149.cover.medium.jpg",
+		"download_count": 32,
+		"grade": null
+	},
+	"Common Sense Applied to Religion; Or, The Bible and the People": {
+		"id": 55531,
+		"title": "Common Sense Applied to Religion; Or, The Bible and the People",
+		"authors": "Beecher, Catharine Esther",
+		"image": "https://www.gutenberg.org/cache/epub/55531/pg55531.cover.small.jpg",
+		"download_count": 14,
+		"grade": null
+	},
+	"Four Americans: Roosevelt, Hawthorne, Emerson, Whitman": {
+		"id": 24435,
+		"title": "Four Americans: Roosevelt, Hawthorne, Emerson, Whitman",
+		"authors": "Beers, Henry A. (Henry Augustin)",
+		"image": "https://www.gutenberg.org/cache/epub/24435/pg24435.cover.small.jpg",
+		"download_count": 35,
+		"grade": "3.3"
+	},
+	"The Greek Philosophers, Vol. 1 (of 2)": {
+		"id": 57126,
+		"title": "The Greek Philosophers, Vol. 1 (of 2)",
+		"authors": "Benn, Alfred William",
+		"image": "https://www.gutenberg.org/cache/epub/57126/pg57126.cover.medium.jpg",
+		"download_count": 43,
+		"grade": "4.0"
+	},
+	"Father Payne": {
+		"id": 12264,
+		"title": "Father Payne",
+		"authors": "Benson, Arthur Christopher",
+		"image": "https://www.gutenberg.org/cache/epub/12264/pg12264.cover.small.jpg",
+		"download_count": 49,
+		"grade": "4.2"
+	},
+	"The Works of George Berkeley. Vol. 1 of 4: Philosophical Works, 1705-21": {
+		"id": 39746,
+		"title": "The Works of George Berkeley. Vol. 1 of 4: Philosophical Works, 1705-21",
+		"authors": "Berkeley, George",
+		"image": "https://www.gutenberg.org/cache/epub/39746/pg39746.cover.small.jpg",
+		"download_count": 172,
+		"grade": null
+	},
+	"The History of Philosophy in Islam": {
+		"id": 66566,
+		"title": "The History of Philosophy in Islam",
+		"authors": "Boer, T. J. de (Tjitze J.)",
+		"image": "https://www.gutenberg.org/cache/epub/66566/pg66566.cover.medium.jpg",
+		"download_count": 57,
+		"grade": "5.0"
+	},
+	"The Consolation of Philosophy": {
+		"id": 14328,
+		"title": "The Consolation of Philosophy",
+		"authors": "Boethius",
+		"image": "https://www.gutenberg.org/cache/epub/14328/pg14328.cover.medium.jpg",
+		"download_count": 1753,
+		"grade": "4.4"
+	},
+	"Nursing as Caring: A Model for Transforming Practice": {
+		"id": 42988,
+		"title": "Nursing as Caring: A Model for Transforming Practice",
+		"authors": "Boykin, Anne",
+		"image": "https://www.gutenberg.org/cache/epub/42988/pg42988.cover.medium.jpg",
+		"download_count": 510,
+		"grade": "4.0"
+	},
+	"Lectures on the Philosophy of the Human Mind (Vol. 1 of 3)": {
+		"id": 43116,
+		"title": "Lectures on the Philosophy of the Human Mind (Vol. 1 of 3)",
+		"authors": "Brown, Thomas",
+		"image": "https://www.gutenberg.org/cache/epub/43116/pg43116.cover.small.jpg",
+		"download_count": 32,
+		"grade": null
+	},
+	"An Historical Sketch of the Conceptions of Memory among the Ancients": {
+		"id": 59995,
+		"title": "An Historical Sketch of the Conceptions of Memory among the Ancients",
+		"authors": "Burnham, William Henry",
+		"image": "https://www.gutenberg.org/cache/epub/59995/pg59995.cover.small.jpg",
+		"download_count": 16,
+		"grade": null
+	},
+	"Sketch of a New Esthetic of Music": {
+		"id": 31799,
+		"title": "Sketch of a New Esthetic of Music",
+		"authors": "Busoni, Ferruccio",
+		"image": "https://www.gutenberg.org/cache/epub/31799/pg31799.cover.small.jpg",
+		"download_count": 164,
+		"grade": "3.9"
+	},
+	"Academica": {
+		"id": 14970,
+		"title": "Academica",
+		"authors": "Cicero, Marcus Tullius",
+		"image": "https://www.gutenberg.org/cache/epub/14970/pg14970.cover.small.jpg",
+		"download_count": 118,
+		"grade": "4.7"
+	},
+	"The Scientific Spirit of the Age, and Other Pleas and Discussions": {
+		"id": 64021,
+		"title": "The Scientific Spirit of the Age, and Other Pleas and Discussions",
+		"authors": "Cobbe, Frances Power",
+		"image": "https://www.gutenberg.org/cache/epub/64021/pg64021.cover.medium.jpg",
+		"download_count": 14,
+		"grade": null
+	},
+	"The philosophy of mathematics": {
+		"id": 57355,
+		"title": "The philosophy of mathematics",
+		"authors": "Carus, Paul",
+		"image": "https://www.gutenberg.org/cache/epub/57355/pg57355.cover.medium.jpg",
+		"download_count": 73,
+		"grade": "4.6"
+	},
+	"The Analects of Confucius (from the Chinese Classics)": {
+		"id": 3330,
+		"title": "The Analects of Confucius (from the Chinese Classics)",
+		"authors": "Confucius",
+		"image": "https://www.gutenberg.org/cache/epub/3330/pg3330.cover.small.jpg",
+		"download_count": 477,
+		"grade": null
+	},
+	"Æsthetic as science of expression and general linguistic": {
+		"id": 54618,
+		"title": "Æsthetic as science of expression and general linguistic",
+		"authors": "Croce, Benedetto",
+		"image": "https://www.gutenberg.org/cache/epub/54618/pg54618.cover.medium.jpg",
+		"download_count": 44,
+		"grade": "4.5"
+	},
+	"Baron d'Holbach : a Study of Eighteenth Century Radicalism in France": {
+		"id": 5621,
+		"title": "Baron d'Holbach : a Study of Eighteenth Century Radicalism in France",
+		"authors": "Cushing, Max Pearson",
+		"image": "https://www.gutenberg.org/cache/epub/5621/pg5621.cover.small.jpg",
+		"download_count": 109,
+		"grade": "3.5"
+	},
+	"A Beginner's History of Philosophy, Vol. 1: Ancient and Mediæval Philosophy": {
+		"id": 61651,
+		"title": "A Beginner's History of Philosophy, Vol. 1: Ancient and Mediæval Philosophy",
+		"authors": "Cushman, Herbert Ernest",
+		"image": "https://www.gutenberg.org/cache/epub/61651/pg61651.cover.medium.jpg",
+		"download_count": 44,
+		"grade": null
+	},
+	"A History of Indian Philosophy, Volume 1": {
+		"id": 12956,
+		"title": "A History of Indian Philosophy, Volume 1",
+		"authors": "Dasgupta, Surendranath",
+		"image": "https://www.gutenberg.org/cache/epub/12956/pg12956.cover.small.jpg",
+		"download_count": 197,
+		"grade": "4.2"
+	},
+	"Selections from the Principles of Philosophy": {
+		"id": 4391,
+		"title": "Selections from the Principles of Philosophy",
+		"authors": "Descartes, René",
+		"image": "https://www.gutenberg.org/cache/epub/4391/pg4391.cover.small.jpg",
+		"download_count": 188,
+		"grade": "4.3"
+	},
+	"The Influence of Darwin on Philosophy, and other essays in contemporary thought": {
+		"id": 51525,
+		"title": "The Influence of Darwin on Philosophy, and other essays in contemporary thought",
+		"authors": "Dewey, John",
+		"image": "https://www.gutenberg.org/cache/epub/51525/pg51525.cover.medium.jpg",
+		"download_count": 52,
+		"grade": "3.5"
+	},
+	"Creative Intelligence: Essays in the Pragmatic Attitude": {
+		"id": 33727,
+		"title": "Creative Intelligence: Essays in the Pragmatic Attitude",
+		"authors": "Stuart, Henry Waldgrave",
+		"image": "https://www.gutenberg.org/cache/epub/33727/pg33727.cover.medium.jpg",
+		"download_count": 140,
+		"grade": null
+	},
+	"German philosophy and politics": {
+		"id": 42208,
+		"title": "German philosophy and politics",
+		"authors": "Dewey, John",
+		"image": "https://www.gutenberg.org/cache/epub/42208/pg42208.cover.small.jpg",
+		"download_count": 52,
+		"grade": "5.0"
+	},
+	"The Science and Philosophy of the Organism": {
+		"id": 44388,
+		"title": "The Science and Philosophy of the Organism",
+		"authors": "Driesch, Hans",
+		"image": "https://www.gutenberg.org/cache/epub/44388/pg44388.cover.medium.jpg",
+		"download_count": 41,
+		"grade": "5.0"
+	},
+	"Philosophy and the Social Problem": {
+		"id": 42880,
+		"title": "Philosophy and the Social Problem",
+		"authors": "Durant, Will",
+		"image": "https://www.gutenberg.org/cache/epub/42880/pg42880.cover.medium.jpg",
+		"download_count": 116,
+		"grade": "4.1"
+	},
+	"The Soul of the Indian: An Interpretation": {
+		"id": 340,
+		"title": "The Soul of the Indian: An Interpretation",
+		"authors": "Eastman, Charles A.",
+		"image": "https://www.gutenberg.org/cache/epub/340/pg340.cover.small.jpg",
+		"download_count": 121,
+		"grade": "4.3"
+	},
+	"A Theological-Political Treatise [Part III]": {
+		"id": 991,
+		"title": "A Theological-Political Treatise [Part III]",
+		"authors": "Spinoza, Benedictus de",
+		"image": "https://www.gutenberg.org/cache/epub/991/pg991.cover.small.jpg",
+		"download_count": 55,
+		"grade": null
+	},
+	"Landmarks of Scientific Socialism: \"Anti-Duehring\"": {
+		"id": 31933,
+		"title": "Landmarks of Scientific Socialism: \"Anti-Duehring\"",
+		"authors": "Engels, Friedrich",
+		"image": "https://www.gutenberg.org/cache/epub/31933/pg31933.cover.small.jpg",
+		"download_count": 41,
+		"grade": "4.1"
+	},
+	"Initiation into Philosophy": {
+		"id": 9304,
+		"title": "Initiation into Philosophy",
+		"authors": "Faguet, Émile",
+		"image": "https://www.gutenberg.org/cache/epub/9304/pg9304.cover.medium.jpg",
+		"download_count": 53,
+		"grade": "4.8"
+	},
+	"Reflections on War and Death": {
+		"id": 35875,
+		"title": "Reflections on War and Death",
+		"authors": "Freud, Sigmund",
+		"image": "https://www.gutenberg.org/cache/epub/35875/pg35875.cover.medium.jpg",
+		"download_count": 86,
+		"grade": "2.0"
+	},
+	"Studies and Essays: Censorship and Art": {
+		"id": 2901,
+		"title": "Studies and Essays: Censorship and Art",
+		"authors": "Galsworthy, John",
+		"image": "https://www.gutenberg.org/cache/epub/2901/pg2901.cover.medium.jpg",
+		"download_count": 14,
+		"grade": "4.0"
+	},
+	"The Reform of Education": {
+		"id": 36762,
+		"title": "The Reform of Education",
+		"authors": "Gentile, Giovanni",
+		"image": "https://www.gutenberg.org/cache/epub/36762/pg36762.cover.small.jpg",
+		"download_count": 56,
+		"grade": "5.0"
+	},
+	"Decadence, and Other Essays on the Culture of Ideas": {
+		"id": 46728,
+		"title": "Decadence, and Other Essays on the Culture of Ideas",
+		"authors": "Gourmont, Remy de",
+		"image": "https://www.gutenberg.org/cache/epub/46728/pg46728.cover.medium.jpg",
+		"download_count": 52,
+		"grade": "4.5"
+	},
+	"Review of the Work of Mr John Stuart Mill Entitled, 'Examination of Sir William Hamilton's Philosophy.'": {
+		"id": 12002,
+		"title": "Review of the Work of Mr John Stuart Mill Entitled, 'Examination of Sir William Hamilton's Philosophy.'",
+		"authors": "Grote, George",
+		"image": "https://www.gutenberg.org/cache/epub/12002/pg12002.cover.medium.jpg",
+		"download_count": 16,
+		"grade": "3.0"
+	}
+}
