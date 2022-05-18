@@ -10,5 +10,5 @@ class Fcuser(db.Model):
     password = db.Column(db.String(64))     #패스워드를 받아올 문자열길이 
     author = db.Column(db.String(8))
     genre = db.Column(db.String(64))
-    method = db.Column(db.String(8))
+    way = db.Column(db.String(8))
     

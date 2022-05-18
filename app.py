@@ -6,9 +6,10 @@ from models import db
 import os
 from models import Fcuser
 from form import RegisterForm
-
+import secrets
 
 app = Flask('mars_discovery')
+app.config["SECRET_KEY"] = secrets.token_hex(16)
 
 @app.route('/')
 @app.route('/main')
@@ -54,7 +55,7 @@ def register():
     if request.method == 'POST':
         #회원정보 생성
         if form.validate_on_submit():
-            username = form.data.get('unsername')
+            username = form.data.get('username')
             email = form.data.get('email') 
             password = form.data.get('password')
 
@@ -63,7 +64,7 @@ def register():
             
             fcuser = Fcuser()         
             fcuser.username = username      
-            fcuser.email = email
+            fcuser.useremail = email
             fcuser.password = password #models의 FCuser 클래스를 이용해 db에 입력
             fcuser.author = author
             fcuser.genre = genre
@@ -72,9 +73,9 @@ def register():
                 fcuser.way = way
             db.session.add(fcuser)
             db.session.commit()
-            flash('회원 가입이 완료되었습니다.')
+            flash('회원 가입이 완료되었습니다.', 'success')
         else:
-            flash('입력한 값을 확인해주세요.', 'error')
+            flash('Please check the entered value.', 'danger')
     return render_template("register.html", form=form, genre_data=genre_data, author_data=author_data)
 
     
@@ -97,7 +98,6 @@ if __name__ == "__main__":
     app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True     # 사용자에게 원하는 정보를 전달완료했을때가 TEARDOWN, 그 순간마다 COMMIT 하도록 설정
     #여러가지 쌓아져있던 동작들을 Commit을 해주어야 데이터베이스에 반영됨. 이러한 단위들은 트렌젝션이라고함.
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False   # True하면 warrnig메시지 유발, 
-    app.config['SECRET_KEY']='AASDFASDF'
     db.init_app(app) #초기화 후 db.app에 app으로 명시적으로 넣어줌
     db.app = app
     db.create_all()   # 이 명령이 있어야 생성됨. DB가

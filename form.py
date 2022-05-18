@@ -11,4 +11,3 @@ class RegisterForm(FlaskForm):
         validators.EqualTo('password_confirm', message='Passwords must be matched'),
     ])
     password_confirm = PasswordField('Repeat Password')
-    accept_tos = BooleanField('I accept the TOS', [validators.InputRequired()])
