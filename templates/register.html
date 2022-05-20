@@ -1,7 +1,6 @@
 {% extends 'common.html' %}
 {% block head %}
 {{ super() }}
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Document</title>
@@ -20,39 +19,57 @@
     <div class="row mt-5">
     <div class="col-12">
         <form method="POST" action="{{ url_for('register') }}">
-            <div class="form-group">
-                <label for="userid">아이디</label>
-                <input type="text" class="form-control" id="userid" placeholder="아이디" name="userid"/>
-                <!-- id는 삭제해도 되더라. 마지막에 name과 app.py의 get 메소드 사용하는 부분이 일치해야 상응한다 -->
+            {{ form.csrf_token }}
+            <div>
+                {{ form.username.label() }}
+                {{ form.username() }}
             </div>
-            <div class="form-group">
-                <label for="username">사용자 이름</label>
-                <input type="text" class="form-control" id="username" placeholder="사용자 이름" name="username"/>
-
+            <div>
+                {{ form.email.label() }}
+                {{ form.email() }}
             </div>
-            <div class="form-group">
-                <label for="password">비밀번호</label>
-                <input type="password" class="form-control" id="password" placeholder="비밀번호" name="password"/>
+            <div>
+                {{ form.password.label() }}
+                {{ form.password() }}
             </div>
-            <div class="form-group">
-                <label for="re_password">비밀번호확인</label>
-                <input type="password" class="form-control" id="re_password" placeholder="비밀번호확인" name="re_password"/>
+            <div>
+                {{ form.password_confirm.label() }}
+                {{ form.password_confirm() }}
             </div>
             <hr>
             <h2>선택사항</h2>
             <div class="form-group">
-                <label for="author">좋아하는 작가</label>
-                <input type="text" class="form-control" placeholder="좋아하는 작가" name="author"/>
-            </div>
-            <div class="form-group">
-                <select class="form-select" id="user_genre" name="user_genre">
-                    <option selected>Select Genre</option>
-                    <option value="1">Literature</option>
-                    <option value="2">History</option>
-                    <option value="3">Philosophy</option>
+                <label for="author">1. Favorite Genre</label>
+                <select class="form-select" name="genre">
+                    <option selected>Genres</option>
+                    {% for o in genre_data %}
+                    <option value="{{ o.genre }}">{{ o.genre }}</option>
+                    {% endfor %}
                 </select>
             </div>
-            <button type="submit" class="btn btn-primary">등록</button>
+            <div class="form-group">
+                <label for="author">2. Favorite Authors</label>
+                <select class="form-select" name="author">
+                    <option selected>Authors</option>
+                    {% for o in author_data %}
+                    <option value="{{ o.author }}">{{ o.author }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div>3. Preferred Way</div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="way" id="exampleRadios1" value="Reading" checked>
+                <label class="form-check-label" for="Radios1">
+                Reading Books
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="way" id="exampleRadios2" value="Audio">
+                <label class="form-check-label" for="Radios2">
+                Audio Books
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
         </form>
     </div>
     </div>
