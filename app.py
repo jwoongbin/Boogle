@@ -91,6 +91,24 @@ def home():
 def bookshelves():
     return render_template('bookshelves.html')
 
+@app.route('/details')
+def details():
+    
+    topic = 'buddhism'
+    response = requests.get("http://gutendex.com/books/?topic="+topic)
+    data = json.loads(response.content)
+    books = []
+    books = data['results']
+    
+    author = 'nietzsche'
+    response = requests.get("http://gutendex.com/books/?search="+author)
+    data = json.loads(response.content)
+    books2 = []
+    books2 = data['results']   
+        
+    return render_template('details.html', books=books, books2=books2)
+
+
 if __name__ == "__main__":
     basedir = os.path.abspath(os.path.dirname(__file__))  # database 경로를 절대경로로 설정함
     dbfile = os.path.join(basedir, 'db.sqlite') # 데이터베이스 이름과 경로
