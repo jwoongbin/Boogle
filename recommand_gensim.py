@@ -27,6 +27,7 @@ model.train(train_doc2vec, total_examples=model.corpus_count, epochs = model.epo
 - 저장
 model.save("d2v.model")
 """
+
 # 마찬가지로 d2v.model 파일이 너무 커 push하지 않음, 위의 주석처리된 부분을 직접 실행해야 작동(1회만)
 # 저장 후 불러오기
 model = Doc2Vec.load("d2v.model")

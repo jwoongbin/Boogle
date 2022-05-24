@@ -1,0 +1,5 @@
+*.pyc
+/virtualenv/
+/dist/
+/*.egg-info
+/MANIFEST.in
